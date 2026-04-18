@@ -5,4 +5,10 @@ class Actividades:
         self.__prioridad = prioridad  
         self.__completada = completada 
         self.__responsable = responsable
-
+    
+    def info(self):
+        print("Tarea:", self.__nombre_tarea)
+        print("Tiempo estimado:", self.__tiempo_estimado, "minutos")
+        print("Prioridad:", self.__prioridad) #1:alta, 2:media y 3:alta
+        print("Completada:", self.__completada)
+        print("Responsable:", self.__responsable)
