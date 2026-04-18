@@ -42,3 +42,6 @@ class Actividades:
 
     def set_responsable(self, responsable):
         self.__responsable = responsable
+        
+    def completar_tarea(self):
+        self.__completada = True
