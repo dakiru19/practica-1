@@ -28,3 +28,17 @@ class Actividades:
     def get_responsable(self):
         return self.__responsable
     
+    def set_nombre_tarea(self, nombre_tarea):
+        self.__nombre_tarea = nombre_tarea
+
+    def set_tiempo_estimado(self, tiempo_estimado):
+        self.__tiempo_estimado = tiempo_estimado
+
+    def set_prioridad(self, prioridad):
+        self.__prioridad = prioridad
+
+    def set_completada(self, completada):
+        self.__completada = completada
+
+    def set_responsable(self, responsable):
+        self.__responsable = responsable
